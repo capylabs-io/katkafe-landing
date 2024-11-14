@@ -16,7 +16,7 @@ export const LandingLayout: React.FC<PropsWithChildren> = ({ children }) => {
               <Footer />
             </div>
           </div>
-          <div className="image-banner w-1/2 flex items-center justify-center max-md:w-full max-md:py-24">
+          <div className="bg-[url('/images/bg-banner.png')] bg-orange-20 w-1/2 flex items-center justify-center max-md:w-full max-md:py-24">
             <div className="relative flex justify-center">
               <img
                 className="w-[430px] max-md:w-[70%]"
