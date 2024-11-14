@@ -6,6 +6,128 @@
 @import url("https://fonts.cdnfonts.com/css/rowdies"); */
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
 
+/*Config from figma*/
+.RegularXxl {
+    @apply !font-pixelifySans font-normal text-xl;
+}
+
+.MediumXxl {
+    @apply !font-pixelifySans font-medium text-xl;
+}
+
+.SemiBoldXxl {
+    @apply !font-pixelifySans font-semibold text-xl;
+}
+
+.BoldXxl {
+    @apply !font-pixelifySans font-bold text-xl;
+}
+
+.MediumXxl {
+    @apply !font-pixelifySans font-medium text-xl;
+}
+
+
+.NumberXxl {
+  @apply !font-pixelifySans font-normal text-2xl leading-6;
+}
+
+.RegularXl {
+    @apply !font-pixelifySans font-normal text-xl;
+}
+
+.MediumXl {
+    @apply !font-pixelifySans font-medium text-xl;
+}
+
+.SemiBoldXl {
+    @apply !font-pixelifySans font-semibold text-xl ;
+}
+
+.BoldXl {
+    @apply !font-pixelifySans font-bold text-xl;
+}
+
+.RegularLg {
+    @apply !font-pixelifySans font-normal text-base;
+}
+
+.MediumLg {
+    @apply !font-pixelifySans font-medium text-base;
+}
+
+.SemiBoldLg {
+    @apply !font-pixelifySans font-semibold text-base;
+}
+
+.BoldLg {
+    @apply !font-pixelifySans font-bold text-base;
+}
+
+.NumberLg {
+    @apply !font-pixelifySans font-normal text-base leading-4;
+}
+
+.RegularMd {
+    @apply !font-pixelifySans font-normal text-sm;
+}
+
+.MediumMd {
+    @apply !font-pixelifySans font-medium text-sm;
+}
+
+.SemiBoldMd {
+    @apply !font-pixelifySans font-semibold text-sm;
+}
+
+.BoldMd {
+    @apply !font-pixelifySans font-bold text-sm;
+}
+
+.NumberMd {
+    @apply !font-pixelifySans font-normal text-sm leading-[14px];
+}
+
+.RegularSm {
+    @apply !font-pixelifySans font-normal text-xs;
+}
+
+.MediumSm {
+    @apply !font-pixelifySans font-medium text-xs;
+}
+
+.SemiBoldSm {
+    @apply !font-pixelifySans font-semibold text-xs;
+}
+
+.BoldSm {
+    @apply !font-pixelifySans font-bold text-xs;
+}
+
+.NumberSm {
+    @apply !font-pixelifySans font-normal text-xs leading-[12px];
+}
+
+.RegularXs {
+    @apply !font-pixelifySans font-normal text-[10px] leading-[12px];
+}
+
+.MediumXs {
+    @apply !font-pixelifySans font-medium text-[10px] leading-[12px];
+}
+
+.SemiBoldXs {
+    @apply !font-pixelifySans font-semibold text-[10px] leading-[12px];
+}
+
+.BoldXs {
+    @apply !font-pixelifySans font-bold text-[10px] leading-[12px];
+}
+
+.NumberXs {
+    @apply !font-pixelifySans font-normal text-[10px] leading-[10px];
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -155,10 +277,6 @@ header .text:hover {
 .content-banner button:hover {
   box-shadow: none;
   background-color: #f4d990;
-}
-.image-banner {
-  background-image: url("/images/bg-banner.png");
-  background-color: #eeedd8;
 }
 
 .tooltip {
