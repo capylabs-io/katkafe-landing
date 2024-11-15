@@ -9,13 +9,6 @@ module.exports = {
         './src/**/*.{ts,tsx}',
     ],
     theme: {
-        container: {
-            center: 'true',
-            padding: '2rem',
-            screens: {
-                '2xl': '1400px'
-            }
-        },
         extend: {
             colors: {
                 gray: {
@@ -33,11 +26,12 @@ module.exports = {
                 },
                 orange: {
                     '10': '#FFFEEC',
-                    '20': '#EEEDD8',
-                    '30': '#FFEDBB',
-                    '40': '#FDA043',
-                    '50': '#FD742D',
-                    '60': '#5E5745',
+                    '20': '#F4F3E7',
+                    '30': '#EEEDD8',
+                    '40': '#FFEDBB',
+                    '50': '#FDA043',
+                    '60': '#FD742D',
+                    '90': '#5E5745',
                 },
                 yellow: {
                     '10': '#FFF4D9',
@@ -103,10 +97,6 @@ module.exports = {
             },
             fontFamily: {
                 pixelifySans: ['var(--font-pixelify-sans)', 'cursive']
-            },
-            boxShadow: {
-                'custom-gray': '0px 4px 0px rgb(208, 213, 221) ',
-                'custom-primary': '0px 4px 0px rgb(159,42,143)'
             },
             screens: {
                 mobile: '440px',
